@@ -1539,7 +1539,6 @@
          opacity: 1;
          }
       </style>
-      <style type="text/css"></style>
    </head>
    <body
       class="home page page-id-236 page-template-default ascend nectar-auto-lightbox wpb-js-composer js-comp-ver-4.11.2 vc_responsive"
@@ -1758,7 +1757,7 @@
                                        <div class="wpb_wrapper">
                                           <a href="https://www.youtube.com/watch?v=Ea2Yjwo8QO0"
                                              data-color="default"
-                                             class="play_button large nectar_video_lightbox magnific-popup"
+                                             class="play_button large nectar_video_lightbox"
                                              target="_blank">
                                              <span>
                                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
