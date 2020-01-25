@@ -1564,12 +1564,10 @@
             <nav>
                <ul id="social">
                   <li><a target="_blank" href="https://twitter.com/sotapatroi"><i class="icon-twitter"></i> </a></li>
-				  <li><a target="_blank" href="https://www.facebook.com/sotapatroi/"><i class="icon-facebook"></i></a></li>
-<!--
-				  <li><a target="_blank" href="https://github.com/sotapatroi"><i class="icon-github-alt"></i></a></li>
--->				  
-				  <li><a target="_blank" href="https://www.instagram.com/sotapatroi/"><i class="icon-instagram"></i></a></li>
-				  <li><a target="_blank" href="https://www.youtube.com/watch?v=Ea2Yjwo8QO0"><i class="icon-youtube"></i></a></li>
+                  <li><a target="_blank" href="https://www.facebook.com/sotapatroi/"><i class="icon-facebook"></i></a></li>
+                  <li><a target="_blank" href="https://github.com/sotapatroi"><i class="icon-github-alt"></i></a></li>
+                  <li><a target="_blank" href="https://www.instagram.com/sotapatroi/"><i class="icon-instagram"></i></a></li>
+                  <li><a target="_blank" href="https://www.youtube.com/watch?v=Ea2Yjwo8QO0"><i class="icon-youtube"></i></a></li>
                </ul>
             </nav>
          </div>
