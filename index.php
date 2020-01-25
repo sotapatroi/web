@@ -1562,11 +1562,11 @@
          <div class="container">
             <nav>
                <ul id="social">
-                  <li><a target="_blank" href="https://twitter.com/sotapatroi"><i class="icon-twitter"></i> </a></li>
-                  <li><a target="_blank" href="https://www.facebook.com/sotapatroi/"><i class="icon-facebook"></i></a></li>
-                  <li><a target="_blank" href="https://github.com/sotapatroi"><i class="icon-github-alt"></i></a></li>
-                  <li><a target="_blank" href="https://www.instagram.com/sotapatroi/"><i class="icon-instagram"></i></a></li>
-                  <li><a target="_blank" href="https://www.youtube.com/watch?v=Ea2Yjwo8QO0"><i class="icon-youtube"></i></a></li>
+                  <li><a target="_blank" href="https://twitter.com/sotapatroi" rel="noopener><i class="icon-twitter"></i> </a></li>
+                  <li><a target="_blank" href="https://www.facebook.com/sotapatroi/" rel="noopener><i class="icon-facebook"></i></a></li>
+                  <li><a target="_blank" href="https://github.com/sotapatroi" rel="noopener><i class="icon-github-alt"></i></a></li>
+                  <li><a target="_blank" href="https://www.instagram.com/sotapatroi/" rel="noopener><i class="icon-instagram"></i></a></li>
+                  <li><a target="_blank" href="https://www.youtube.com/watch?v=Ea2Yjwo8QO0" rel="noopener><i class="icon-youtube"></i></a></li>
                </ul>
             </nav>
          </div>
@@ -1758,7 +1758,7 @@
                                           <a href="https://www.youtube.com/watch?v=Ea2Yjwo8QO0"
                                              data-color="default"
                                              class="play_button large nectar_video_lightbox"
-                                             target="_blank">
+                                             target="_blank" rel="noopener>
                                              <span>
                                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
                                                    xlink="http://www.w3.org/1999/xlink" width="600px"
