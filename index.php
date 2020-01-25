@@ -1699,19 +1699,17 @@
                                                 <h3 style="text-align: right;"><span
                                                    style="color: #ffffff;">Sotapatroi aisialdirako
                                                    itsasontzietan segurtasuna hobetzen dauan sistemea
-                                                   da, patroia uretara jausi ezkero ontzia
-                                                   geldiarazten dauena.</span>
+                                                   da</span>
                                                 </h3>
                                              </div>
-										  </div>
-<!--
+										            </div>
                                           <div class="wpb_text_column wpb_content_element ">
                                              <div class="wpb_wrapper">
-                                                <h5 style="text-align: right;">Garrantzitsuena segurtasunez nabigatzea da!
+                                                <h5 style="text-align: right;">Patroia uretara jausi ezkero ontzia
+                                                   geldiarazten dauena.
                                                 </h5>
                                              </div>
-										  </div>
--->										  
+										            </div>
                                        </div>
                                     </div>
                                  </div>
