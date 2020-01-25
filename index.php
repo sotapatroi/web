@@ -11,7 +11,7 @@
       <!--Shortcut icon-->
       <link rel="shortcut icon" href="http://sotapatroi.eus/index_files/fav.png">
       <title> Sotapatroi - Wireless Man Overboat System </title>
-      <link rel="stylesheet" href="index_files/language-selector.css" type="text/css" media="all">
+      <link rel="stylesheet" href="index_files/language-selector.css"  media="all">
       <!--
          <link rel="alternate" hreflang="en" href="http://sotapatroi.eus/en/">
          <link rel="alternate" hreflang="es" href="http://sotapatroi.eus/es/">
@@ -36,12 +36,12 @@
       <script
          type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/sotapatroi.eus\/","name":"Sotapatroi","potentialAction":{"@type":"SearchAction","target":"http:\/\/sotapatroi.eus\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
       <!-- / Yoast SEO plugin. -->
-      <script type="text/javascript">
+      <script >
          window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/72x72\/", "ext": ".png", "source": { "concatemoji": "index_files\/wp-emoji-release.js?ver=4.5.1" } };
          !function (a, b, c) { function d(a) { var c, d, e, f = b.createElement("canvas"), g = f.getContext && f.getContext("2d"), h = String.fromCharCode; if (!g || !g.fillText) return !1; switch (g.textBaseline = "top", g.font = "600 32px Arial", a) { case "flag": return g.fillText(h(55356, 56806, 55356, 56826), 0, 0), f.toDataURL().length > 3e3; case "diversity": return g.fillText(h(55356, 57221), 0, 0), c = g.getImageData(16, 16, 1, 1).data, d = c[0] + "," + c[1] + "," + c[2] + "," + c[3], g.fillText(h(55356, 57221, 55356, 57343), 0, 0), c = g.getImageData(16, 16, 1, 1).data, e = c[0] + "," + c[1] + "," + c[2] + "," + c[3], d !== e; case "simple": return g.fillText(h(55357, 56835), 0, 0), 0 !== g.getImageData(16, 16, 1, 1).data[0]; case "unicode8": return g.fillText(h(55356, 57135), 0, 0), 0 !== g.getImageData(16, 16, 1, 1).data[0] }return !1 } function e(a) { var c = b.createElement("script"); c.src = a, c.type = "text/javascript", b.getElementsByTagName("head")[0].appendChild(c) } var f, g, h, i; for (i = Array("simple", "flag", "unicode8", "diversity"), c.supports = { everything: !0, everythingExceptFlag: !0 }, h = 0; h < i.length; h++)c.supports[i[h]] = d(i[h]), c.supports.everything = c.supports.everything && c.supports[i[h]], "flag" !== i[h] && (c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && c.supports[i[h]]); c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && !c.supports.flag, c.DOMReady = !1, c.readyCallback = function () { c.DOMReady = !0 }, c.supports.everything || (g = function () { c.readyCallback() }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", g, !1), a.addEventListener("load", g, !1)) : (a.attachEvent("onload", g), b.attachEvent("onreadystatechange", function () { "complete" === b.readyState && c.readyCallback() })), f = c.source || {}, f.concatemoji ? e(f.concatemoji) : f.wpemoji && f.twemoji && (e(f.twemoji), e(f.wpemoji))) }(window, document, window._wpemojiSettings);
       </script>
-      <script src="index_files/wp-emoji-release.js" type="text/javascript"></script>
-      <style type="text/css">
+      <script src="index_files/wp-emoji-release.js" ></script>
+      <style >
          img.wp-smiley,
          img.emoji {
          display: inline !important;
@@ -55,33 +55,33 @@
          padding: 0 !important;
          }
       </style>
-      <link rel="stylesheet" id="contact-form-7-css" href="index_files/styles.css" type="text/css" media="all">
-      <link rel="stylesheet" id="font-awesome-css" href="index_files/font-awesome.css" type="text/css" media="all">
-      <link rel="stylesheet" id="parent-style-css" href="index_files/style_002.css" type="text/css" media="all">
-      <link rel="stylesheet" id="mediaelement-css" href="index_files/mediaelementplayer.css" type="text/css" media="all">
-      <link rel="stylesheet" id="wp-mediaelement-css" href="index_files/wp-mediaelement.css" type="text/css" media="all">
-      <link rel="stylesheet" id="rgs-css" href="index_files/rgs.css" type="text/css" media="all">
-      <link rel="stylesheet" id="main-styles-css" href="index_files/style.css" type="text/css" media="all">
-      <style id="main-styles-inline-css" type="text/css">
+      <link rel="stylesheet" id="contact-form-7-css" href="index_files/styles.css"  media="all">
+      <link rel="stylesheet" id="font-awesome-css" href="index_files/font-awesome.css"  media="all">
+      <link rel="stylesheet" id="parent-style-css" href="index_files/style_002.css"  media="all">
+      <link rel="stylesheet" id="mediaelement-css" href="index_files/mediaelementplayer.css"  media="all">
+      <link rel="stylesheet" id="wp-mediaelement-css" href="index_files/wp-mediaelement.css"  media="all">
+      <link rel="stylesheet" id="rgs-css" href="index_files/rgs.css"  media="all">
+      <link rel="stylesheet" id="main-styles-css" href="index_files/style.css"  media="all">
+      <style id="main-styles-inline-css" >
          html:not(.page-trans-loaded) {
          background-color: #2c2f38;
          }
       </style>
-      <link rel="stylesheet" id="magnific-css" href="index_files/magnific.css" type="text/css" media="all">
+      <link rel="stylesheet" id="magnific-css" href="index_files/magnific.css"  media="all">
       <!--[if lt IE 9]>
       <link rel='stylesheet' id='nectar-ie8-css'  href='http://sotapatroi.eus/wp-content/themes/salient/css/ie8.css?ver=4.5.1' type='text/css' media='all' />
       <![endif]-->
-      <link rel="stylesheet" id="responsive-css" href="index_files/responsive.css" type="text/css" media="all">
-      <link rel="stylesheet" id="select2-css" href="index_files/select2.css" type="text/css" media="all">
-      <link rel="stylesheet" id="skin-ascend-css" href="index_files/ascend.css" type="text/css" media="all">
-      <link rel="stylesheet" id="js_composer_front-css" href="index_files/js_composer.css" type="text/css" media="all">
-      <link rel="stylesheet" id="redux-google-fonts-salient_redux-css" href="index_files/css.css" type="text/css"
+      <link rel="stylesheet" id="responsive-css" href="index_files/responsive.css"  media="all">
+      <link rel="stylesheet" id="select2-css" href="index_files/select2.css"  media="all">
+      <link rel="stylesheet" id="skin-ascend-css" href="index_files/ascend.css"  media="all">
+      <link rel="stylesheet" id="js_composer_front-css" href="index_files/js_composer.css"  media="all">
+      <link rel="stylesheet" id="redux-google-fonts-salient_redux-css" href="index_files/css.css" 
          media="all">
-      <script type="text/javascript" src="index_files/jquery_003.js"></script>
-      <script type="text/javascript" src="index_files/jquery-migrate.js"></script>
-      <script type="text/javascript" src="index_files/modernizr.js"></script>
-      <script type="text/javascript" src="index_files/ProgressCircle.js"></script>
-      <script type="text/javascript" src="index_files/jquery.js"></script>
+      <script  src="index_files/jquery_003.js"></script>
+      <script  src="index_files/jquery-migrate.js"></script>
+      <script  src="index_files/modernizr.js"></script>
+      <script  src="index_files/ProgressCircle.js"></script>
+      <script  src="index_files/jquery.js"></script>
       <link rel="https://api.w.org/" href="http://sotapatroi.eus/wp-json/">
       <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://sotapatroi.eus/xmlrpc.php?rsd">
       <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://sotapatroi.eus/wp-includes/wlwmanifest.xml">
@@ -92,7 +92,7 @@
       <link rel="alternate" type="text/xml+oembed"
          href="http://sotapatroi.eus/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fsotapatroi.eus%2F&amp;format=xml">
       <meta name="generator" content="WPML ver:3.3.7 stt:1,2,16;">
-      <style type="text/css">
+      <style >
          body a {
          color: #ffffff;
          }
@@ -210,8 +210,7 @@
          }
          .col:not(#post-area):not(.span_12):not(#sidebar):hover [class^="icon-"].icon-3x.accent-color.alt-style.hovered,
          body .col:not(#post-area):not(.span_12):not(#sidebar):hover a [class*=" icon-"].icon-3x.accent-color.alt-style.hovered,
-         .ascend #header-outer:not(.transparent) .cart-outer:hover .cart-menu-wrap:not(.has_products) .icon-salient-cart {
-         color: #fffff !important;
+         .ascend #header-outer:not(.transparent) .cart-outer:hover .cart-menu-wrap:not(.has_products) .icon-salient-cart {         
          }
          .orbit-wrapper div.slider-nav span.right,
          .orbit-wrapper div.slider-nav span.left,
@@ -687,7 +686,7 @@
          background-color: rgba(0, 0, 0, 0.8);
          }
       </style>
-      <style type="text/css">
+      <style >
          #header-outer {
          padding-top: 25px;
          }
@@ -989,7 +988,7 @@
          filter: url("http://sotapatroi.eus/#goo");
          }
       </style>
-      <style type="text/css">
+      <style >
          body,
          .toggle h3 a,
          body .ui-widget,
@@ -1056,7 +1055,6 @@
          #header-outer .widget_shopping_cart .cart_list a {}
          @media only screen and (min-width :1px) and (max-width :1000px) {
          header#top .sf-menu a {
-         font-family: - !important;
          font-size: 14px !important;
          }
          }
@@ -1314,27 +1312,19 @@
          body #slide-out-widget-area.fullscreen .inner .off-canvas-menu-container li a {}
          @media only screen and (min-width:690px) and (max-width:1000px) {
          body #slide-out-widget-area.fullscreen .inner .off-canvas-menu-container li a {
-         font-size: ;
-         line-height: ;
          }
          }
          @media only screen and (max-width:690px) {
          body #slide-out-widget-area.fullscreen .inner .off-canvas-menu-container li a {
-         font-size: ;
-         line-height: ;
          }
          }
          #slide-out-widget-area .menuwrapper li small {}
          @media only screen and (min-width:690px) and (max-width:1000px) {
          #slide-out-widget-area .menuwrapper li small {
-         font-size: ;
-         line-height: ;
          }
          }
          @media only screen and (max-width:690px) {
          #slide-out-widget-area .menuwrapper li small {
-         font-size: ;
-         line-height: ;
          }
          }
          .swiper-slide .content h2 {}
@@ -1342,24 +1332,19 @@
          body .nectar-slider-wrap[data-full-width="true"] .swiper-slide .content h2,
          body .nectar-slider-wrap[data-full-width="boxed-full-width"] .swiper-slide .content h2,
          body .full-width-content .vc_span12 .swiper-slide .content h2 {
-         font-size: ;
-         line-height: ;
          }
          }
          @media only screen and (min-width:690px) and (max-width:1000px) {
          body .nectar-slider-wrap[data-full-width="true"] .swiper-slide .content h2,
          body .nectar-slider-wrap[data-full-width="boxed-full-width"] .swiper-slide .content h2,
          body .full-width-content .vc_span12 .swiper-slide .content h2 {
-         font-size: ;
-         line-height: ;
          }
          }
          @media only screen and (max-width:690px) {
          body .nectar-slider-wrap[data-full-width="true"] .swiper-slide .content h2,
          body .nectar-slider-wrap[data-full-width="boxed-full-width"] .swiper-slide .content h2,
          body .full-width-content .vc_span12 .swiper-slide .content h2 {
-         font-size: ;
-         line-height: ;
+
          }
          }
          #featured article .post-title h2 span,
@@ -1367,31 +1352,26 @@
          #portfolio-filters-inline #current-category,
          body .vc_text_separator div {}
          #portfolio-filters-inline ul {
-         line-height: ;
+
          }
          .swiper-slide .content p.transparent-bg span {}
          @media only screen and (min-width:1000px) and (max-width:1300px) {
          .nectar-slider-wrap[data-full-width="true"] .swiper-slide .content p,
          .nectar-slider-wrap[data-full-width="boxed-full-width"] .swiper-slide .content p,
          .full-width-content .vc_span12 .swiper-slide .content p {
-         font-size: ;
-         line-height: ;
+
          }
          }
          @media only screen and (min-width:690px) and (max-width:1000px) {
          .nectar-slider-wrap[data-full-width="true"] .swiper-slide .content p,
          .nectar-slider-wrap[data-full-width="boxed-full-width"] .swiper-slide .content p,
          .full-width-content .vc_span12 .swiper-slide .content p {
-         font-size: ;
-         line-height: ;
          }
          }
          @media only screen and (max-width:690px) {
          body .nectar-slider-wrap[data-full-width="true"] .swiper-slide .content p,
          body .nectar-slider-wrap[data-full-width="boxed-full-width"] .swiper-slide .content p,
          body .full-width-content .vc_span12 .swiper-slide .content p {
-         font-size: ;
-         line-height: ;
          }
          }
          .testimonial_slider blockquote,
@@ -1449,10 +1429,10 @@
          .nectar-milestone .subject,
          .testimonial_slider blockquote span {}
          article.post .post-meta .month {
-         line-height: -6px !important;
+         /* line-height: -6px !important; */
          }
       </style>
-      <style type="text/css">
+      <style >
          .recentcomments a {
          display: inline !important;
          padding: 0 !important;
@@ -1461,21 +1441,21 @@
       </style>
       <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress.">
       <!--[if lte IE 9]>
-      <link rel="stylesheet" type="text/css" href="http://sotapatroi.eus/wp-content/plugins/js_composer_salient/assets/css/vc_lte_ie9.min.css" media="screen">
+      <link rel="stylesheet"  href="http://sotapatroi.eus/wp-content/plugins/js_composer_salient/assets/css/vc_lte_ie9.min.css" media="screen">
       <![endif]-->
       <!--[if IE  8]>
-      <link rel="stylesheet" type="text/css" href="http://sotapatroi.eus/wp-content/plugins/js_composer_salient/assets/css/vc-ie8.min.css" media="screen">
+      <link rel="stylesheet"  href="http://sotapatroi.eus/wp-content/plugins/js_composer_salient/assets/css/vc-ie8.min.css" media="screen">
       <![endif]-->
       <link rel="icon" href="http://sotapatroi.eus/index_files/cropped-fav-32x32.png" sizes="32x32">
       <link rel="icon" href="http://sotapatroi.eus/index_files/cropped-fav-192x192.png" sizes="192x192">
       <link rel="apple-touch-icon-precomposed" href="http://sotapatroi.eus/index_files/cropped-fav-180x180.png">
       <meta name="msapplication-TileImage" content="http://sotapatroi.eus/index_files/cropped-fav-270x270.png">
-      <style type="text/css" data-type="vc_shortcodes-custom-css">
+      <style  data-type="vc_shortcodes-custom-css">
          .vc_custom_1470012819227 {
          padding-left: 10% !important;
          }
          .vc_custom_1476356263030 {
-         padding-top: -20px !important;
+         /* padding-top: -20px !important; */
          }
          .vc_custom_1470014474639 {
          padding-right: 10px !important;
@@ -1489,13 +1469,13 @@
          }
       </style>
       <noscript>
-         <style type="text/css">
+         <style >
             .wpb_animate_when_almost_visible {
             opacity: 1;
             }
          </style>
       </noscript>
-      <style type="text/css">
+      <style >
          .wpb_column.instance-12:before {
          background-color: #ffffff;
          opacity: 1;
@@ -1521,7 +1501,7 @@
          opacity: 1;
          }
       </style>
-      <style type="text/css">
+      <style >
          .row-bg-wrap.instance-2:after {
          background-color: #ffffff;
          opacity: 0.3;
@@ -1562,11 +1542,11 @@
          <div class="container">
             <nav>
                <ul id="social">
-                  <li><a target="_blank" href="https://twitter.com/sotapatroi" rel="noopener><i class="icon-twitter"></i> </a></li>
-                  <li><a target="_blank" href="https://www.facebook.com/sotapatroi/" rel="noopener><i class="icon-facebook"></i></a></li>
-                  <li><a target="_blank" href="https://github.com/sotapatroi" rel="noopener><i class="icon-github-alt"></i></a></li>
-                  <li><a target="_blank" href="https://www.instagram.com/sotapatroi/" rel="noopener><i class="icon-instagram"></i></a></li>
-                  <li><a target="_blank" href="https://www.youtube.com/watch?v=Ea2Yjwo8QO0" rel="noopener><i class="icon-youtube"></i></a></li>
+                  <li><a target="_blank" href="https://twitter.com/sotapatroi" rel="noopener" title="twitter"><i class="icon-twitter"></i></a></li>
+                  <li><a target="_blank" href="https://www.facebook.com/sotapatroi/" rel="noopener" title="facebook"><i class="icon-facebook"></i></a></li>
+                  <li><a target="_blank" href="https://github.com/sotapatroi" rel="noopener" title="github"><i class="icon-github-alt"></i></a></li>
+                  <li><a target="_blank" href="https://www.instagram.com/sotapatroi/" rel="noopener" title="instagram"><i class="icon-instagram"></i></a></li>
+                  <li><a target="_blank" href="https://www.youtube.com/watch?v=Ea2Yjwo8QO0" rel="noopener" title="youtube"><i class="icon-youtube"></i></a></li>
                </ul>
             </nav>
          </div>
@@ -1758,10 +1738,10 @@
                                           <a href="https://www.youtube.com/watch?v=Ea2Yjwo8QO0"
                                              data-color="default"
                                              class="play_button large nectar_video_lightbox"
-                                             target="_blank" rel="noopener>
+                                             target="_blank" rel="noopener">
                                              <span>
                                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
-                                                   xlink="http://www.w3.org/1999/xlink" width="600px"
+                                                   width="600px"
                                                    height="800px" x="0px" y="0px" viewBox="0 0 600 800"
                                                    enable-background="new 0 0 600 800"
                                                    xml:space="preserve">
@@ -1837,7 +1817,7 @@
                                                       class="img-with-animation " data-delay="0"
                                                       data-animation="fade-in"
                                                       src="index_files/producto-01.jpg" alt=""
-                                                      width="100%" height="100%"></div>
+                                                      style="width:100%"></div>
                                                 </div>
                                              </div>
                                              <div class="vc_col-sm-3 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-4 vc_col-md-8 wpb_column column_container col padding-4-percent has-animation instance-8"
@@ -1884,7 +1864,7 @@
                                                       class="img-with-animation " data-delay="0"
                                                       data-animation="none"
                                                       src="index_files/Infografia.png" alt=""
-                                                      width="100%" height="100%"></div>
+                                                      style="width:100%"></div>
                                                 </div>
                                              </div>
                                              <div class="vc_col-sm-3 wpb_column column_container col no-extra-padding instance-10 one-fourths clear-both no-left-margin"
@@ -1973,7 +1953,7 @@
 							<p>Sotapatroi proiektuari buruz gehiago jakin nahi izan ezkero: &#115;&#111;&#116;&#97;&#112;&#97;&#116;&#114;&#111;&#105;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</p>
 						</div>
 					</div>
-				<div class="img-with-aniamtion-wrap center"><img class="img-with-animation  animated-in" data-delay="0" data-animation="fade-in" src="http://sotapatroi.eus/index_files/eskuak2.png" alt="" style="opacity: 1;" width="100%" height="100%"></div>
+				<div class="img-with-aniamtion-wrap center"><img class="img-with-animation  animated-in" data-delay="0" data-animation="fade-in" src="http://sotapatroi.eus/index_files/eskuak2.png" alt="" style="opacity: 1; width: 100%"></div>
 							</div> 
 					</div> 
 				
@@ -2019,60 +1999,59 @@
             </div>
          </div>
       </div>
-      </div>
       <!--/ajax-content-wrap-->
       <a id="to-top" class=""><i class="icon-angle-up top-icon"></i><i class="icon-angle-up"></i></a>
-      <script type="text/javascript" src="index_files/core.js"></script>
-      <script type="text/javascript" src="index_files/widget.js"></script>
-      <script type="text/javascript" src="index_files/position.js"></script>
-      <script type="text/javascript" src="index_files/menu.js"></script>
-      <script type="text/javascript" src="index_files/wp-a11y.js"></script>
-      <script type="text/javascript">
+      <script  src="index_files/core.js"></script>
+      <script  src="index_files/widget.js"></script>
+      <script  src="index_files/position.js"></script>
+      <script  src="index_files/menu.js"></script>
+      <script  src="index_files/wp-a11y.js"></script>
+      <script >
          /* <![CDATA[ */
          var uiAutocompleteL10n = { "noResults": "No search results.", "oneResult": "1 result found. Use up and down arrow keys to navigate.", "manyResults": "%d results found. Use up and down arrow keys to navigate." };
          /* ]]> */
       </script>
-      <script type="text/javascript" src="index_files/autocomplete.js"></script>
-      <script type="text/javascript">
+      <script  src="index_files/autocomplete.js"></script>
+      <script >
          /* <![CDATA[ */
          var MyAcSearch = { "url": "http:\/\/sotapatroi.eus\/wp-admin\/admin-ajax.php" };
          /* ]]> */
       </script>
-      <script type="text/javascript" src="index_files/wpss-search-suggest.js"></script>
-      <script type="text/javascript" src="index_files/jquery_002.js"></script>
-      <script type="text/javascript">
+      <script  src="index_files/wpss-search-suggest.js"></script>
+      <script  src="index_files/jquery_002.js"></script>
+      <script >
          /* <![CDATA[ */
          var _wpcf7 = { "loaderUrl": "http:\/\/sotapatroi.eus\/index_files\/ajax-loader.gif", "recaptchaEmpty": "Please verify that you are not a robot.", "sending": "Bidaltzen..." };
          /* ]]> */
       </script>
-      <script type="text/javascript" src="index_files/scripts.js"></script>
-      <script type="text/javascript" src="index_files/magnific.js"></script>
-      <script type="text/javascript" src="index_files/isotope.js"></script>
-      <script type="text/javascript" src="index_files/superfish.js"></script>
-      <script type="text/javascript">
+      <script  src="index_files/scripts.js"></script>
+      <script  src="index_files/magnific.js"></script>
+      <script  src="index_files/isotope.js"></script>
+      <script  src="index_files/superfish.js"></script>
+      <script >
          /* <![CDATA[ */
          var nectarLove = { "ajaxurl": "http:\/\/sotapatroi.eus\/wp-admin\/admin-ajax.php", "postID": "236", "rooturl": "http:\/\/sotapatroi.eus", "pluginPages": [], "disqusComments": "false" };
          /* ]]> */
       </script>
-      <script type="text/javascript" src="index_files/init.js"></script>
-      <script type="text/javascript" src="index_files/infinitescroll.js"></script>
-      <script type="text/javascript">
+      <script  src="index_files/init.js"></script>
+      <script  src="index_files/infinitescroll.js"></script>
+      <script >
          /* <![CDATA[ */
          var mejsL10n = { "language": "eu", "strings": { "Close": "Close", "Fullscreen": "Fullscreen", "Download File": "Download File", "Download Video": "Download Video", "Play\/Pause": "Play\/Pause", "Mute Toggle": "Mute Toggle", "None": "None", "Turn off Fullscreen": "Turn off Fullscreen", "Go Fullscreen": "Go Fullscreen", "Unmute": "Unmute", "Mute": "Mute", "Captions\/Subtitles": "Captions\/Subtitles" } };
          var _wpmejsSettings = { "pluginPath": "\/wp-includes\/js\/mediaelement\/" };
          /* ]]> */
       </script>
-      <script type="text/javascript" src="index_files/mediaelement-and-player.js"></script>
-      <script type="text/javascript" src="index_files/wp-mediaelement.js"></script>
-      <script type="text/javascript" src="index_files/select2.js"></script>
-      <script type="text/javascript" src="index_files/wp-embed.js"></script>
-      <script type="text/javascript">
+      <script  src="index_files/mediaelement-and-player.js"></script>
+      <script  src="index_files/wp-mediaelement.js"></script>
+      <script  src="index_files/select2.js"></script>
+      <script  src="index_files/wp-embed.js"></script>
+      <script >
          /* <![CDATA[ */
          var icl_vars = { "current_language": "eu", "icl_home": "http:\/\/sotapatroi.eus\/", "ajax_url": "http:\/\/sotapatroi.eus\/wp-admin\/admin-ajax.php", "url_type": "1" };
          /* ]]> */
       </script>
-      <script type="text/javascript" src="index_files/sitepress.js"></script>
-      <script type="text/javascript" src="index_files/js_composer_front.js"></script>
+      <script  src="index_files/sitepress.js"></script>
+      <script  src="index_files/js_composer_front.js"></script>
       <div id="wp-a11y-speak-polite" role="status" aria-live="polite" aria-relevant="additions text" aria-atomic="true"
          class="screen-reader-text wp-a11y-speak-region"></div>
       <div id="wp-a11y-speak-assertive" role="alert" aria-live="assertive" aria-relevant="additions text"
