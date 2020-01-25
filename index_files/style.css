@@ -1,0 +1,106 @@
+/*
+Theme Name: Salient Child Theme
+Theme URI: http: //mysite.com/
+Description: This is a custom child theme for Salient
+Author: My Name
+Author URI: http: //mysite.com/
+Template: salient
+Version: 0.1
+*/
+
+#header-secondary-outer #social li a i {font-size: 25px !important; color: #070f48 !important;}
+
+#sotapatroi-info { padding-top: 200px !important;}
+
+/* home text*/
+div.destacado-home-text p{
+    font-size: 24px;
+    color: #484848;
+    line-height: 1;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;	
+}
+
+.wpb_wrapper .vc_custom_1461581459134 {padding-top: 0 !important;}
+#lang_sel_list { height: 15px; padding: 5px !important; }
+#lang_sel_list ul { float: right; }
+div .container-wrap input[type="email"]{ background: rgba(255,255,255,0.6) !important;}
+.container-wrap, .project-title { padding-bottom: 0 !important;}
+/********************************************************************/
+/* RESPONSIVE */
+/* mobile*/
+@media (max-width: 667px) and (orientation: portrait) {
+	#header-secondary-outer #social li a i {font-size: 15px !important; color: #070f48 !important;}
+	#header-secondary-outer nav > ul { text-align: left !important;}
+	div.destacado-home-text p {font-size: 20px; padding-bottom: 0 !important;}
+	div .container-wrap input[type="email"]{ background: rgba(255,255,255,0.8) !important;}
+	#sotapatroi-info { padding-top: 0 !important;}
+	
+}
+
+@media (min-width: 375px) and (max-width: 667px) and (orientation: landscape)  {
+	#header-secondary-outer #social li a i {font-size: 15px !important; color: #070f48 !important;}
+	#header-secondary-outer nav > ul { text-align: left !important;}
+	div.destacado-home-text p {font-size: 20px; padding-bottom: 0 !important;}
+	div .container-wrap input[type="email"]{ background: rgba(255,255,255,0.8) !important;}
+	#sotapatroi-info { padding-top: 0 !important;}
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+	#header-secondary-outer #social li a i {font-size: 20px !important; color: #070f48 !important;}
+	#header-secondary-outer nav > ul { text-align: left !important;}
+	div .container-wrap input[type="email"]{ background: rgba(255,255,255,0.8) !important;}
+	#sotapatroi-info { padding-top: 50px !important;}
+	
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	#sotapatroi-info { padding-top: 175px !important;}
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 450px) {
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+}
+
+
+@media (max-width: 1024px) {
+
+}
+@media (max-width: 450px) {
+
+}
+
+
+
+/*
+     FILE ARCHIVED ON 03:24:30 Jan 08, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:59:12 Jan 25, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 104.558
+  exclusion.robots: 0.13
+  CDXLines.iter: 16.625 (3)
+  RedisCDXSource: 0.604
+  PetaboxLoader3.resolve: 49.095
+  load_resource: 223.329
+  esindex: 0.011
+  LoadShardBlock: 84.329 (3)
+  exclusion.robots.policy: 0.121
+  PetaboxLoader3.datanode: 153.564 (4)
+*/

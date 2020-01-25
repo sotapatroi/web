@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Hind Light'), local('Hind-Light'), url(http://fonts.gstatic.com/s/hind/v8/ovjfFuI0qshJ4pjW8a52hA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Hind Bold'), local('Hind-Bold'), url(http://fonts.gstatic.com/s/hind/v8/akA3ImRNyYfKy4MBs09Paw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'), url(http://fonts.gstatic.com/s/montserrat/v12/IQHow_FEYlDC4Gzy_m8fcvEr6Hm6RMS0v1dtXsGir4g.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'), url(http://fonts.gstatic.com/s/playfairdisplay/v13/2NBgzUtEeyB-Xtpr9bm1Cczai8e7xzqnKiVb1EwOy0E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Varela Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Varela Round Regular'), local('VarelaRound-Regular'), url(http://fonts.gstatic.com/s/varelaround/v9/APH4jr0uSos5wiut5cpjronF5uFdDttMLvmWuJdhhgs.ttf) format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 03:41:55 Jan 08, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:59:14 Jan 25, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  esindex: 0.012
+  load_resource: 346.47
+  exclusion.robots.policy: 0.124
+  RedisCDXSource: 73.812
+  captures_list: 165.366
+  CDXLines.iter: 19.482 (3)
+  PetaboxLoader3.resolve: 140.661
+  PetaboxLoader3.datanode: 198.299 (4)
+  LoadShardBlock: 68.75 (3)
+  exclusion.robots: 0.135
+*/
