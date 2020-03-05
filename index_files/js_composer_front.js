@@ -142,14 +142,14 @@ document.documentElement.className += " js_active ", document.documentElement.cl
     }), "function" != typeof window.vc_googleplus && (window.vc_googleplus = function() {
         0 < jQuery(".wpb_googleplus").length && ! function() {
             var po = document.createElement("script");
-            po.type = "text/javascript", po.async = !0, po.src = "http://apis.google.com/js/plusone.js";
+            po.type = "text/javascript", po.async = !0, po.src = "https://apis.google.com/js/plusone.js";
             var s = document.getElementsByTagName("script")[0];
             s.parentNode.insertBefore(po, s)
         }()
     }), "function" != typeof window.vc_pinterest && (window.vc_pinterest = function() {
         0 < jQuery(".wpb_pinterest").length && ! function() {
             var po = document.createElement("script");
-            po.type = "text/javascript", po.async = !0, po.src = "http://assets.pinterest.com/js/pinit.js";
+            po.type = "text/javascript", po.async = !0, po.src = "https://assets.pinterest.com/js/pinit.js";
             var s = document.getElementsByTagName("script")[0];
             s.parentNode.insertBefore(po, s)
         }()

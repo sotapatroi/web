@@ -16,7 +16,7 @@ var WB_wombat_opener_location;
 // Domain
 var WB_wombat_document_domain;
 
-//function to allow jquery expando requests (http://stackoverflow.com/questions/7200722/jquery-expando-properties),
+//function to allow jquery expando requests (https://stackoverflow.com/questions/7200722/jquery-expando-properties),
 //which return a function that has its name defined in a parameter of the request, to be executed. we rewrite the function call elsewhere (see
 //ArchiveUrlReplay.xml) and then define it here to ensure it exists. expando function include current timestamp so we can never replay them without
 //overriding default expando behavior
@@ -32,7 +32,7 @@ function WB_Get_Domain(href) {
 }
 
 function WB_StripPort(str) {
-  var hostWithPort = str.match(/^http:\/\/[\w\d@.-]+:\d+/);
+  var hostWithPort = str.match(/^https:\/\/[\w\d@.-]+:\d+/);
   if (hostWithPort) {
     var hostName = hostWithPort[0].substr(0, hostWithPort[0].lastIndexOf(':'));
     return hostName + str.substr(hostWithPort[0].length);
@@ -63,7 +63,7 @@ function WB_IsHostUrl(str) {
 }
 
 function WB_RewriteUrl(url) {
-  var httpPrefix = "http://";
+  var httpPrefix = "https://";
   var httpsPrefix = "https://";
 
   if (!url) {
@@ -92,14 +92,14 @@ function WB_RewriteUrl(url) {
     return WB_wombat_replayDatePrefix + WB_wombat_origHost + url;
   }
 
-  // If full url starting with http:// add http prefix
+  // If full url starting with https:// add http prefix
   if (url.indexOf(httpPrefix) == 0) {
-    return WB_wombat_replayDatePrefix.replace("https://", "http://") + url;
+    return WB_wombat_replayDatePrefix.replace("https://", "https://") + url;
   }
 
   // If full url starting with https:// add https prefix
   if (url.indexOf(httpsPrefix) == 0) {
-    return WB_wombat_replayDatePrefix.replace("http://", "https://") + url;
+    return WB_wombat_replayDatePrefix.replace("https://", "https://") + url;
   }
 
   // May or may not be a hostname, call function to determine
@@ -127,7 +127,7 @@ function WB_IsRelativeUrl(url) {
   return false;
 }
 
-//http://wayback.archive-it.org/1000000016/20140801164720/http://www.w3.org/2000/svg -> http://www.w3.org/2000/svg - for https://webarchive.jira.com/browse/ARI-3906
+//https://wayback.archive-it.org/1000000016/20140801164720/https://www.w3.org/2000/svg -> https://www.w3.org/2000/svg - for https://webarchive.jira.com/browse/ARI-3906
 function WB_UnRewriteUrl(url) {
   return WB_ExtractOrig(url);
 }
@@ -148,7 +148,7 @@ function WB_ExtractOrigNoProtocol(href) {
 
   var lHref = WB_ExtractOrig(href);
 
-  if (lHref.slice(0, 5) == "http:") {
+  if (lHref.slice(0, 5) == "https:") {
     return lHref.slice(5);
   }
   else if (lHref.slice(0, 6) == "https:") {
@@ -171,14 +171,14 @@ function WB_ExtractOrig(href) {
   }
 }
 
-//solution from http://stackoverflow.com/questions/4497531/javascript-get-url-path
+//solution from https://stackoverflow.com/questions/4497531/javascript-get-url-path
 function WB_GetPath(href) {
   var a = document.createElement('a');
   a.href = href;
   return a.pathname;
 }
 
-//solution from http://stackoverflow.com/questions/4497531/javascript-get-url-path
+//solution from https://stackoverflow.com/questions/4497531/javascript-get-url-path
 //specifically, user stecb's answer
 function WB_ExtractOrigPathname(href) {
   var origHref = WB_ExtractOrig(href);
@@ -203,7 +203,7 @@ function WB_EndsWith(str, endingStr) {
   return str.indexOf(endingStr, str.length - endingStr.length) !== -1;
 }
 
-//solution from http://stackoverflow.com/questions/4497531/javascript-get-url-path
+//solution from https://stackoverflow.com/questions/4497531/javascript-get-url-path
 function WB_ExtractOrigSearch(href) {
   var origHref = WB_ExtractOrig(href);
   var a = document.createElement('a');
@@ -220,7 +220,7 @@ function WB_fixProtocol(href) {
   }
 
   if (location.protocol == "https:") {
-    if (href.slice(0, 5) == "http:") {
+    if (href.slice(0, 5) == "https:") {
       href = "https:" + href.slice(5);
     }
   }
@@ -419,7 +419,7 @@ function WB_wombat_Init(replayPrefix, captureDate, origHost) {
   WB_wombat_replayDatePrefix = WB_wombat_replayPrefix + captureDate + "/";
   WB_wombat_captureDatePart = "/" + captureDate + "/";
 
-  WB_wombat_origHost = "http://" + origHost;
+  WB_wombat_origHost = "https://" + origHost;
 
   WB_wombat_self_location = WB_CopyLocationObj(window.self.location);
   WB_wombat_top_location = ((window.self.location != window.top.location) ? WB_CopyLocationObj(window.top.location) : WB_wombat_self_location);
@@ -518,7 +518,7 @@ function WB_wombat_Init(replayPrefix, captureDate, origHost) {
 
   document.WB_wombat_self_location = WB_wombat_self_location;
 
-  //from http://stackoverflow.com/questions/2638292/after-travelling-back-in-firefox-history-javascript-wont-run - for https://webarchive.jira.com/browse/ARI-4118
+  //from https://stackoverflow.com/questions/2638292/after-travelling-back-in-firefox-history-javascript-wont-run - for https://webarchive.jira.com/browse/ARI-4118
   window.onunload = function(){};
 
   WB_Wombat_SetCookies(WB_wombat_self_location._origHref, location.protocol + "//" + origHost, replayPrefix.split("/")[3],  captureDate);
@@ -563,7 +563,7 @@ function WB_Wombat_SetCookies(origHref, origHost, collectionId,  captureDate) {
   document.cookie="wayback.timestamp=" + captureDate + "; path=/";
 }
 
-//copied from http://stackoverflow.com/questions/1833588/javascript-clone-a-function
+//copied from https://stackoverflow.com/questions/1833588/javascript-clone-a-function
 Function.prototype.clone = function() {
   var cloneObj = this;
   if(this.__isClone) {

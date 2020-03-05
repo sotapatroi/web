@@ -1,12 +1,12 @@
 /*
 	Theme Name: Salient
-	Theme URI: http://www.themenectar.com
+	Theme URI: https://www.themenectar.com
 	Author: ThemeNectar
-	Author URI: http://themenectar.com
+	Author URI: https://themenectar.com
 	Description: An Ultra Responsive Multi-Purpose Theme.
 	Version: 7.0.8
 	License: GNU General Public License version 3.0
-	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 -------------------------------------------------------------------------
 
@@ -359,7 +359,7 @@ body[data-ajax-transitions="true"] #ajax-loading-screen[data-method="standard"],
 	background-position: center;
 	display: block;
 	background-repeat: no-repeat;
-	background-image: url("/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/loading-white-bg.gif");
+	background-image: url("/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/loading-white-bg.gif");
 }
 
 @keyframes spinning_animation {
@@ -1014,11 +1014,11 @@ body[data-header-color="dark"] #header-secondary-outer ul ul li a {
 }
 
 body[data-header-color="dark"] #header-secondary-outer #social .vimeo, body[data-header-color="dark"]  #header-secondary-outer #social .vimeo span {
-	 background-image: url("/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/social/vimeo-header-black.png")!important;
+	 background-image: url("/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/social/vimeo-header-black.png")!important;
 }
 
 body[data-header-color="dark"] #header-secondary-outer #social .behance, body[data-header-color="dark"]  #header-secondary-outer #social .behance span {
-	 background-image: url("/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/social/behance-header-black.png")!important;
+	 background-image: url("/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/social/behance-header-black.png")!important;
 }
 
 body[data-header-color="dark"] #header-secondary-outer li.current-menu-ancestor > a, body[data-header-color="dark"] #header-secondary-outer li.current-menu-item > a,
@@ -2309,7 +2309,7 @@ body #mobile-menu li.open > a [class^="icon-"] {
 	-moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.7) inset;
 	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.7) inset;
 	-o-box-shadow: 0px 1px 3px rgba(0,0,0,0.7) inset;
-	background-image: url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/mag-glass-mobile.png);
+	background-image: url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/mag-glass-mobile.png);
 	background-repeat: no-repeat;
 	background-position: 15px center;
 }
@@ -2320,7 +2320,7 @@ only screen and (min-device-pixel-ratio: 1.5),
 only screen and (min-resolution: 144dpi) {
    #mobile-menu input[type=text] {
    		background-size: 14px 14px;
-      	background-image: url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/mag-glass-mobile@2x.png)!important;
+      	background-image: url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/mag-glass-mobile@2x.png)!important;
    }
 }
 
@@ -3327,7 +3327,7 @@ html:not(.js) .nectar-slider-wrap {
 	background-color: #393939;
 	background-position: center;
 	background-repeat: repeat;
-	background-image: url('/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/textures/diagonal_line.png');
+	background-image: url('/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/textures/diagonal_line.png');
 	position: absolute;
 	z-index: 1000;
 	top: 0px;
@@ -3352,7 +3352,7 @@ html:not(.js) .nectar-slider-wrap {
 .nectar-slider-loading .loading-icon {
 	background-position: center;
 	background-repeat: no-repeat;
-	background-image: url('/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/nectar-loading.gif');
+	background-image: url('/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/nectar-loading.gif');
 	position: absolute;
 	z-index: 1000;
 	top: 0px;
@@ -4060,7 +4060,7 @@ body[data-header-search="false"] #header-outer[data-has-menu="false"][data-cart=
 }
 
 .active_texture {
-	background-image: url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/textures/grid.png);
+	background-image: url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/textures/grid.png);
 }
 
 .swiper-slide .button {
@@ -5622,7 +5622,7 @@ body[data-smooth-scrolling="1"] .swiper-wrapper .slider-down-arrow {
 	background-color: #393939;
 	background-position: center;
     background-repeat: repeat;
-    background-image: url('/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/textures/diagonal_line.png');
+    background-image: url('/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/textures/diagonal_line.png');
 }
 
 #page-header-bg .nectar-video-wrap video {
@@ -5804,8 +5804,8 @@ html[xmlns] .slides {display: block;}
 	background-color: #333333!important;
 }
 
-.flex-direction-nav .flex-next span {background-image: url("/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/slider-arrows-small.png")!important; background-position: right top; top: 9px; right: 9px; position: absolute; display: block; height:15px; width:15px; z-index: 100;}
-.flex-direction-nav .flex-prev span {background-image: url("/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/slider-arrows-small.png")!important; background-position: left top; top: 9px; left: 9px;  position: absolute; display: block; height:15px; width:15px; z-index: 100;}
+.flex-direction-nav .flex-next span {background-image: url("/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/slider-arrows-small.png")!important; background-position: right top; top: 9px; right: 9px; position: absolute; display: block; height:15px; width:15px; z-index: 100;}
+.flex-direction-nav .flex-prev span {background-image: url("/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/slider-arrows-small.png")!important; background-position: left top; top: 9px; left: 9px;  position: absolute; display: block; height:15px; width:15px; z-index: 100;}
 
 
 
@@ -5856,7 +5856,7 @@ html[xmlns] .slides {display: block;}
 	position: relative;
 	width: 100%;
 	height: 30px;
-	background: transparent url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/jplayer.png) repeat-x right top;
+	background: transparent url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/jplayer.png) repeat-x right top;
 	z-index: 100;
 }
 
@@ -5887,12 +5887,12 @@ a.jp-pause {
 	left: 0;
 }
 
-a.jp-play { background: url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/jplayer.png) -16px -68px no-repeat; }
+a.jp-play { background: url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/jplayer.png) -16px -68px no-repeat; }
 
 a.jp-play:hover { background-position: -16px -100px; }
 
 a.jp-pause { 
-    background: url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/jplayer.png) -52px -68px no-repeat; 
+    background: url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/jplayer.png) -52px -68px no-repeat; 
     display: none;
 }
 
@@ -5911,7 +5911,7 @@ a.jp-pause:hover { background-position: -52px -100px; }
 }
 
 .jp-seek-bar {
-    background: url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/jplayer.png) 0 -49px repeat-x;
+    background: url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/jplayer.png) 0 -49px repeat-x;
     width: 0px;
 	height: 9px;
 	cursor: pointer;
@@ -5946,7 +5946,7 @@ a.jp-pause:hover { background-position: -52px -100px; }
 .jp-volume-bar {
 	position: relative;
 	overflow: hidden;
-	background: url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/jplayer.png) 0 -49px repeat-x;
+	background: url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/jplayer.png) 0 -49px repeat-x;
 	width: 100%;
 	height: 9px;
 	cursor: pointer;
@@ -5974,10 +5974,10 @@ a.jp-unmute {
 	right: 62px;
 }
 
-a.jp-mute { background: transparent url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/jplayer.png) -95px -69px no-repeat; }
+a.jp-mute { background: transparent url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/jplayer.png) -95px -69px no-repeat; }
 a.jp-mute:hover { background-position: -95px -101px; }
 
-a.jp-unmute { background: url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/jplayer.png) -138px -69px no-repeat; }
+a.jp-unmute { background: url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/jplayer.png) -138px -69px no-repeat; }
 a.jp-unmute:hover { background-position: -138px -101px; }
 
 
@@ -6093,13 +6093,13 @@ body  .mejs-controls button {
 
 body  .mejs-controls button:hover, .mejs-controls .mejs-fullscreen-button:hover button { opacity: 0.8!important;}
 
-.mejs-controls .mejs-mute button { background: transparent url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/jplayer.png) -102px -76px no-repeat!important; }
-.mejs-controls .mejs-unmute button { background: url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/jplayer.png) -145px -76px no-repeat!important; }
+.mejs-controls .mejs-mute button { background: transparent url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/jplayer.png) -102px -76px no-repeat!important; }
+.mejs-controls .mejs-unmute button { background: url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/jplayer.png) -145px -76px no-repeat!important; }
 
-.mejs-controls .mejs-play button { background: url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/jplayer.png) -24px -75px no-repeat!important; }
-.mejs-controls .mejs-pause button { background: url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/jplayer.png) -60px -75px no-repeat!important; }
+.mejs-controls .mejs-play button { background: url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/jplayer.png) -24px -75px no-repeat!important; }
+.mejs-controls .mejs-pause button { background: url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/jplayer.png) -60px -75px no-repeat!important; }
 
-.mejs-controls .mejs-fullscreen-button button { background: url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/jplayer.png) -187px -76px no-repeat!important;  }
+.mejs-controls .mejs-fullscreen-button button { background: url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/jplayer.png) -187px -76px no-repeat!important;  }
 
 
 .mejs-controls .mejs-time-rail .mejs-time-total {
@@ -6437,7 +6437,7 @@ body[data-smooth-scrolling="0"] .carousel-wrap[data-full-width="true"] {
 
 .portfolio-items .col .work-item.style-3 a,
 .portfolio-items .col .work-item.style-3-alt a {
-	background: transparent url('/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/transparent.png') repeat 0 0;	
+	background: transparent url('/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/transparent.png') repeat 0 0;	
 }
 
 /*.portfolio-items .col .work-item.style-3:hover .work-info-bg {
@@ -10144,16 +10144,16 @@ body .masonry.meta_overlaid .content-inner .whole-link  {
 
 /*
 .portfolio-items .col .work-info .view span { 
-	 background-image: url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/stock/icons/link.png);
+	 background-image: url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/stock/icons/link.png);
 }
 
 .portfolio-items .col .work-info .image span { 
-	 background-image: url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/stock/icons/image.png);
+	 background-image: url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/stock/icons/image.png);
 }
 
 
 .portfolio-items .col .work-info .video span { 
-	 background-image: url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/stock/icons/video.png);
+	 background-image: url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/stock/icons/video.png);
 }
 
 .portfolio-items .col .work-info span {
@@ -10834,7 +10834,7 @@ body.cssreflections .portfolio-items .parallaxImg.transition {
 	left: 50%;
 	top: 100px;
 	margin-left: -15px;
-	background-image: url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/loading-white-bg.gif);
+	background-image: url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/loading-white-bg.gif);
 }
 
 .portfolio-loading.default-loader {
@@ -11059,7 +11059,7 @@ body .portfolio-items.constrain-max-cols.no-masonry .col.elastic-portfolio-item 
 .team-member[data-style="meta_overlaid"] a, .team-member[data-style="meta_overlaid_alt"] a {
 	display: block;	
 	position: absolute;
-	background: transparent url('/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/transparent.png') repeat 0 0;	
+	background: transparent url('/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/transparent.png') repeat 0 0;	
 	top: 0;
 	left: 0;
 	z-index: 20;
@@ -15836,7 +15836,7 @@ body[data-ext-responsive="true"].single-post .heading-title[data-header-style="d
 #infscr-loading {
     position: relative;
     z-index: 10000000;
-    background-image: url("/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/loading-white-bg.gif");
+    background-image: url("/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/loading-white-bg.gif");
     background-repeat: no-repeat;
     background-position: center;
     height: 60px;
@@ -16233,7 +16233,7 @@ article.post.quote .post-content .quote-inner span.icon {
 	height: 17px;
 	width: 19px;
 	display: block;
-	background-image: url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/quote.png);
+	background-image: url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/quote.png);
 	position: absolute;
 	right: 20px;
 }
@@ -16243,7 +16243,7 @@ article.post.link .post-content .link-inner span.icon {
 	height: 20px;
 	width: 18px;
 	display: block;
-	background-image: url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/link.png);
+	background-image: url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/link.png);
 	position: absolute;
 	right: 20px;
 }
@@ -16257,7 +16257,7 @@ article.post.format-status .post-content .status-inner span.icon {
 	height: 16px;
 	width: 18px;
 	display: block;
-	background-image: url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/status.png);
+	background-image: url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/status.png);
 	position: absolute;
 	right: 20px;
 }
@@ -16267,7 +16267,7 @@ article.post.format-aside .post-content .aside-inner span.icon {
 	height: 16px;
 	width: 18px;
 	display: block;
-	background-image: url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/aside.png);
+	background-image: url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/aside.png);
 	position: absolute;
 	right: 20px;
 }
@@ -16278,22 +16278,22 @@ only screen and (min-device-pixel-ratio: 1.5),
 only screen and (min-resolution: 144dpi) {
 	article.post.quote .post-content .quote-inner span.icon {
 		background-size: 19px 17px;
-		background-image: url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/quote@2x.png)!important;
+		background-image: url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/quote@2x.png)!important;
 	}
 	
 	article.post.link .post-content .link-inner span.icon {
 		background-size: 18px 20px;
-		background-image: url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/link@2x.png)!important;
+		background-image: url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/link@2x.png)!important;
 	}
 	
 	article.post.format-status .post-content .status-inner span.icon {
 		background-size: 19px 17px;
-		background-image: url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/status@2x.png)!important;
+		background-image: url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/status@2x.png)!important;
 	}
 	
 	article.post.format-aside .post-content .aside-inner span.icon {
 		background-size: 19px 17px;
-		background-image: url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/aside@2x.png)!important;
+		background-image: url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/aside@2x.png)!important;
 	}
 }
 
@@ -16589,12 +16589,12 @@ p > a > i.icon-3x {
 }
 
 #pagination .next a, #pagination .next.inactive, #pagination .page-numbers.next, .woocommerce nav.woocommerce-pagination ul li .page-numbers.next {
-	background-image: url("/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/portfolio-arrows.png");
+	background-image: url("/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/portfolio-arrows.png");
 	background-position: -20px 12px;
 }
 
 #pagination .prev a, #pagination .prev.inactive, #pagination .page-numbers.prev, .woocommerce nav.woocommerce-pagination ul li .page-numbers.prev {
-    background-image: url("/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/portfolio-arrows.png");
+    background-image: url("/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/portfolio-arrows.png");
 	background-position: 13px 12px;
 }
 
@@ -16603,12 +16603,12 @@ only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min-device-pixel-ratio: 1.5),
 only screen and (min-resolution: 144dpi) {
 	#pagination .next a, #pagination .next.inactive, #pagination .page-numbers.next, .woocommerce nav.woocommerce-pagination ul li .page-numbers.next {
-		background-image: url("/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/portfolio-arrows@2x.png")!important;
+		background-image: url("/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/portfolio-arrows@2x.png")!important;
 		background-size: 40px 9px!important;
 	}
 	
 	#pagination .prev a, #pagination .prev.inactive, #pagination .page-numbers.prev, .woocommerce nav.woocommerce-pagination ul li .page-numbers.prev {
-	    background-image: url("/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/portfolio-arrows@2x.png")!important;
+	    background-image: url("/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/portfolio-arrows@2x.png")!important;
 	    background-size: 40px 9px!important;
 	}
 }
@@ -16735,7 +16735,7 @@ body .comment-list {
 	border-left: 1px solid #ddd;
 	background-repeat: no-repeat;
 	background-position: left 20px;
-	background-image: url(/web/20180108034905im_/http://sotapatroi.eus/wp-content/themes/salient/img/icons/comment-children-line.jpg);
+	background-image: url(/web/20180108034905im_/https://sotapatroi.eus/wp-content/themes/salient/img/icons/comment-children-line.jpg);
 }
 
 .comment-list li.comment > div img.avatar, .comment-list li.pingback > div img.avatar {

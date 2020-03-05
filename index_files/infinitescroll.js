@@ -10,7 +10,7 @@
    + Copyright 2011/12 Paul Irish & Luke Shumard
    + Licensed under the MIT license
 
-   + Documentation: http://infinite-scroll.com/
+   + Documentation: https://infinite-scroll.com/
 */
 
 (function (window, $, undefined) {
@@ -272,7 +272,7 @@
             } else if (path.match(/^(.*?)2(.*?$)/)) {
 
                 // page= is used in django:
-                // http://www.infinite-scroll.com/changelog/comment-page-1/#comment-127
+                // https://www.infinite-scroll.com/changelog/comment-page-1/#comment-127
                 if (path.match(/^(.*?page=)2(\/.*|$)/)) {
                     path = path.match(/^(.*?page=)2(\/.*|$)/).slice(1);
                     return path;

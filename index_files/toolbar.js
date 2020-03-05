@@ -308,7 +308,7 @@ if(typeof __wm==="undefined") __wm={};
     $("wmtb").onsubmit = function(e) {
       var query = $("wmtbURL").value;
       // if textbox value is not a URL, redirect to search
-      if (!(query.indexOf('http://') === 0 || query.indexOf('https://') === 0 ||
+      if (!(query.indexOf('https://') === 0 || query.indexOf('https://') === 0 ||
 	   query.match(/[\w\.]{2,256}\.[a-z]{2,4}/gi))) {
 	document.location.href="/web/*/" + $("wmtbURL").value;
 	e.preventDefault();
@@ -408,8 +408,8 @@ if(typeof __wm==="undefined") __wm={};
     // Also look into embedded frames recursively
     // Captured resources urls may have timestamps different from DOM URL
     // so it is not possible to search with original path
-    // /web/20120407141544/http://example.com
-    // we must search for URLS ENDING WITH http://example.com
+    // /web/20120407141544/https://example.com
+    // we must search for URLS ENDING WITH https://example.com
     function find_elements_by_url(current_window, url) {
       var orig_url = url.split("/").splice(6).join("/");
       var els=current_window.document.querySelectorAll(
@@ -689,7 +689,7 @@ if(typeof __wm==="undefined") __wm={};
     });
   }
 
-  var screenShotTimestampRegex = /web\/(\d*)\/http:\/\/web\.archive\.org\/screenshot/g;
+  var screenShotTimestampRegex = /web\/(\d*)\/https:\/\/web\.archive\.org\/screenshot/g;
 
   function extractTimestampFromScreenShotRequest (url) {
     var res = screenShotTimestampRegex.exec(url);

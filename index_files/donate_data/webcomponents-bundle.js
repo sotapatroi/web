@@ -1,20 +1,20 @@
 /**
 @license @nocompile
 Copyright (c) 2018 The Polymer Project Authors. All rights reserved.
-This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
-The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
-The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+This code may only be used under the BSD style license found at https://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at https://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at https://polymer.github.io/CONTRIBUTORS.txt
 Code distributed by Google as part of the polymer project is also
-subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+subject to an additional IP rights grant found at https://polymer.github.io/PATENTS.txt
 */
 (function(){/*
 
  Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
- This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
- The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
- The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+ This code may only be used under the BSD style license found at https://polymer.github.io/LICENSE.txt
+ The complete set of authors may be found at https://polymer.github.io/AUTHORS.txt
+ The complete set of contributors may be found at https://polymer.github.io/CONTRIBUTORS.txt
  Code distributed by Google as part of the polymer project is also
- subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+ subject to an additional IP rights grant found at https://polymer.github.io/PATENTS.txt
 */
 'use strict';var w;function aa(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}}function ca(a){var b="undefined"!=typeof Symbol&&Symbol.iterator&&a[Symbol.iterator];return b?b.call(a):{next:aa(a)}}function da(a){for(var b,c=[];!(b=a.next()).done;)c.push(b.value);return c}
 var ea="undefined"!=typeof window&&window===this?this:"undefined"!=typeof global&&null!=global?global:this,ha="function"==typeof Object.defineProperties?Object.defineProperty:function(a,b,c){a!=Array.prototype&&a!=Object.prototype&&(a[b]=c.value)};function ia(){ia=function(){};ea.Symbol||(ea.Symbol=ja)}function ma(a,b){this.a=a;ha(this,"description",{configurable:!0,writable:!0,value:b})}ma.prototype.toString=function(){return this.a};
@@ -46,11 +46,11 @@ function Ta(a){return new x(function(b,c){function d(h,k){try{if(k&&("object"===
 function Ua(a){return a&&"object"===typeof a&&a.constructor===x?a:new x(function(b){b(a)})}function Va(a){return new x(function(b,c){c(a)})}function Wa(a){return new x(function(b,c){for(var d=0,e=a.length;d<e;d++)a[d].then(b,c)})}var Na="function"===typeof setImmediate&&function(a){setImmediate(a)}||function(a){Ia(a,0)};/*
 
 Copyright (c) 2017 The Polymer Project Authors. All rights reserved.
-This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
-The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
-The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+This code may only be used under the BSD style license found at https://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at https://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at https://polymer.github.io/CONTRIBUTORS.txt
 Code distributed by Google as part of the polymer project is also
-subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+subject to an additional IP rights grant found at https://polymer.github.io/PATENTS.txt
 */
 if(!window.Promise){window.Promise=x;x.prototype.then=x.prototype.then;x.all=Ta;x.race=Wa;x.resolve=Ua;x.reject=Va;var Xa=document.createTextNode(""),Ya=[];(new MutationObserver(function(){for(var a=Ya.length,b=0;b<a;b++)Ya[b]();Ya.splice(0,a)})).observe(Xa,{characterData:!0});Na=function(a){Ya.push(a);Xa.textContent=0<Xa.textContent.length?"":"a"}};/*
  Copyright (C) 2015 by WebReflection
@@ -83,32 +83,32 @@ arguments.length?k(u):X(u,G)};q(a,"create",E);E.value=function(){var u=N.call(th
 (function(a,b,c){function d(){return this}b[a]||(b[a]=function(){var e=0,f=this,g={next:function(){var h=f.length<=e;return h?{done:h}:{done:h,value:f[e++]}}};g[a]=d;return g});c[a]||(c[a]=function(){var e=String.fromCodePoint,f=this,g=0,h=f.length,k={next:function(){var l=h<=g,m=l?"":e(f.codePointAt(g));g+=m.length;return l?{done:l}:{done:l,value:m}}};k[a]=d;return k})})(Symbol.iterator,Array.prototype,String.prototype);/*
 
 Copyright (c) 2018 The Polymer Project Authors. All rights reserved.
-This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
-The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
-The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+This code may only be used under the BSD style license found at https://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at https://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at https://polymer.github.io/CONTRIBUTORS.txt
 Code distributed by Google as part of the polymer project is also
-subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+subject to an additional IP rights grant found at https://polymer.github.io/PATENTS.txt
 */
 var Za=Object.prototype.toString;Object.prototype.toString=function(){return void 0===this?"[object Undefined]":null===this?"[object Null]":Za.call(this)};Object.keys=function(a){return Object.getOwnPropertyNames(a).filter(function(b){return(b=Object.getOwnPropertyDescriptor(a,b))&&b.enumerable})};var $a=window.Symbol.iterator;
 String.prototype[$a]&&String.prototype.codePointAt||(String.prototype[$a]=function ab(){var b,c=this;return Ha(ab,function(d){1==d.a&&(b=0);if(3!=d.a)return b<c.length?d=Ba(d,c[b]):(d.a=0,d=void 0),d;b++;d.a=2})});Set.prototype[$a]||(Set.prototype[$a]=function bb(){var b,c=this,d;return Ha(bb,function(e){1==e.a&&(b=[],c.forEach(function(f){b.push(f)}),d=0);if(3!=e.a)return d<b.length?e=Ba(e,b[d]):(e.a=0,e=void 0),e;d++;e.a=2})});
 Map.prototype[$a]||(Map.prototype[$a]=function gb(){var b,c=this,d;return Ha(gb,function(e){1==e.a&&(b=[],c.forEach(function(f,g){b.push([g,f])}),d=0);if(3!=e.a)return d<b.length?e=Ba(e,b[d]):(e.a=0,e=void 0),e;d++;e.a=2})});/*
 
  Copyright (c) 2014 The Polymer Project Authors. All rights reserved.
- This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
- The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
- The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+ This code may only be used under the BSD style license found at https://polymer.github.io/LICENSE.txt
+ The complete set of authors may be found at https://polymer.github.io/AUTHORS.txt
+ The complete set of contributors may be found at https://polymer.github.io/CONTRIBUTORS.txt
  Code distributed by Google as part of the polymer project is also
- subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+ subject to an additional IP rights grant found at https://polymer.github.io/PATENTS.txt
 */
 window.WebComponents=window.WebComponents||{flags:{}};var hb=document.querySelector('script[src*="webcomponents-bundle"]'),ib=/wc-(.+)/,A={};if(!A.noOpts){location.search.slice(1).split("&").forEach(function(a){a=a.split("=");var b;a[0]&&(b=a[0].match(ib))&&(A[b[1]]=a[1]||!0)});if(hb)for(var jb=0,kb=void 0;kb=hb.attributes[jb];jb++)"src"!==kb.name&&(A[kb.name]=kb.value||!0);if(A.log&&A.log.split){var lb=A.log.split(",");A.log={};lb.forEach(function(a){A.log[a]=!0})}else A.log={}}
 window.WebComponents.flags=A;var mb=A.shadydom;if(mb){window.ShadyDOM=window.ShadyDOM||{};window.ShadyDOM.force=mb;var nb=A.noPatch;window.ShadyDOM.noPatch="true"===nb?!0:nb}var ob=A.register||A.ce;ob&&window.customElements&&(window.customElements.forcePolyfill=ob);/*
 
 Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
-This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
-The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
-The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+This code may only be used under the BSD style license found at https://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at https://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at https://polymer.github.io/CONTRIBUTORS.txt
 Code distributed by Google as part of the polymer project is also
-subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+subject to an additional IP rights grant found at https://polymer.github.io/PATENTS.txt
 */
 function pb(){}pb.prototype.toJSON=function(){return{}};function B(a){a.__shady||(a.__shady=new pb);return a.__shady}function L(a){return a&&a.__shady};var M=window.ShadyDOM||{};M.Ka=!(!Element.prototype.attachShadow||!Node.prototype.getRootNode);var qb=Object.getOwnPropertyDescriptor(Node.prototype,"firstChild");M.D=!!(qb&&qb.configurable&&qb.get);M.ia=M.force||!M.Ka;M.G=M.noPatch||!1;M.ma=M.preferPerformance;M.la="on-demand"===M.G;M.ya=navigator.userAgent.match("Trident");function rb(a){return(a=L(a))&&void 0!==a.firstChild}function O(a){return a instanceof ShadowRoot}function sb(a){return(a=(a=L(a))&&a.root)&&tb(a)}
 var ub=Element.prototype,vb=ub.matches||ub.matchesSelector||ub.mozMatchesSelector||ub.msMatchesSelector||ub.oMatchesSelector||ub.webkitMatchesSelector,wb=document.createTextNode(""),xb=0,yb=[];(new MutationObserver(function(){for(;yb.length;)try{yb.shift()()}catch(a){throw wb.textContent=xb++,a;}})).observe(wb,{characterData:!0});function zb(a){yb.push(a);wb.textContent=xb++}var Ab=!!document.contains;function Bb(a,b){for(;b;){if(b==a)return!0;b=b.__shady_parentNode}return!1}
@@ -214,7 +214,7 @@ l.delete(k));ef(a,k,{Za:l,upgrade:e})}})}else f.push(g)},d);for(b=0;b<f.length;b
 function mf(a,b){try{var c=b.ownerDocument,d=c.__CE_registry;var e=d&&(c.defaultView||c.__CE_isImportDocument)?lf(d,b.localName):void 0;if(e&&void 0===b.__CE_state){e.constructionStack.push(b);try{try{if(new e.constructorFunction!==b)throw Error("The custom element constructor did not produce the element being upgraded.");}finally{e.constructionStack.pop()}}catch(k){throw b.__CE_state=2,k;}b.__CE_state=1;b.__CE_definition=e;if(e.attributeChangedCallback&&b.hasAttributes()){var f=e.observedAttributes;
 for(e=0;e<f.length;e++){var g=f[e],h=b.getAttribute(g);null!==h&&a.attributeChangedCallback(b,g,null,h,null)}}T(b)&&a.connectedCallback(b)}}catch(k){nf(k)}}of.prototype.connectedCallback=function(a){var b=a.__CE_definition;if(b.connectedCallback)try{b.connectedCallback.call(a)}catch(c){nf(c)}};of.prototype.disconnectedCallback=function(a){var b=a.__CE_definition;if(b.disconnectedCallback)try{b.disconnectedCallback.call(a)}catch(c){nf(c)}};
 of.prototype.attributeChangedCallback=function(a,b,c,d,e){var f=a.__CE_definition;if(f.attributeChangedCallback&&-1<f.observedAttributes.indexOf(b))try{f.attributeChangedCallback.call(a,b,c,d,e)}catch(g){nf(g)}};
-function xf(a,b,c,d){var e=b.__CE_registry;if(e&&(null===d||"http://www.w3.org/1999/xhtml"===d)&&(e=lf(e,c)))try{var f=new e.constructorFunction;if(void 0===f.__CE_state||void 0===f.__CE_definition)throw Error("Failed to construct '"+c+"': The returned value was not constructed with the HTMLElement constructor.");if("http://www.w3.org/1999/xhtml"!==f.namespaceURI)throw Error("Failed to construct '"+c+"': The constructed element's namespace must be the HTML namespace.");if(f.hasAttributes())throw Error("Failed to construct '"+
+function xf(a,b,c,d){var e=b.__CE_registry;if(e&&(null===d||"https://www.w3.org/1999/xhtml"===d)&&(e=lf(e,c)))try{var f=new e.constructorFunction;if(void 0===f.__CE_state||void 0===f.__CE_definition)throw Error("Failed to construct '"+c+"': The returned value was not constructed with the HTMLElement constructor.");if("https://www.w3.org/1999/xhtml"!==f.namespaceURI)throw Error("Failed to construct '"+c+"': The constructed element's namespace must be the HTML namespace.");if(f.hasAttributes())throw Error("Failed to construct '"+
 c+"': The constructed element must not have any attributes.");if(null!==f.firstChild)throw Error("Failed to construct '"+c+"': The constructed element must not have any children.");if(null!==f.parentNode)throw Error("Failed to construct '"+c+"': The constructed element must not have a parent node.");if(f.ownerDocument!==b)throw Error("Failed to construct '"+c+"': The constructed element's owner document is incorrect.");if(f.localName!==c)throw Error("Failed to construct '"+c+"': The constructed element's local name is incorrect.");
 return f}catch(g){return nf(g),b=null===d?re.call(b,c):se.call(b,d,c),Object.setPrototypeOf(b,HTMLUnknownElement.prototype),b.__CE_state=2,b.__CE_definition=void 0,uf(a,b),b}b=null===d?re.call(b,c):se.call(b,d,c);uf(a,b);return b}
 function nf(a){var b=a.message,c=a.sourceURL||a.fileName||"",d=a.line||a.lineNumber||0,e=a.column||a.columnNumber||0,f=void 0;void 0===ErrorEvent.prototype.initErrorEvent?f=new ErrorEvent("error",{cancelable:!0,message:b,filename:c,lineno:d,colno:e,error:a}):(f=document.createEvent("ErrorEvent"),f.initErrorEvent("error",!1,!0,b,c,d),f.preventDefault=function(){Object.defineProperty(this,"defaultPrevented",{configurable:!0,get:function(){return!0}})});void 0===f.error&&Object.defineProperty(f,"error",
@@ -288,7 +288,7 @@ n);continue}break;case "authority ignore slashes":if("/"!=n&&"\\"!=n){y="authori
 n||"/"==n||"\\"==n||"?"==n||"#"==n){2!=v.length||!q.test(v[0])||":"!=v[1]&&"|"!=v[1]?(0!=v.length&&(this.j=b.call(this,v),v=""),y="relative path start"):y="relative path";continue}else"\t"==n||"\n"==n||"\r"==n?N("Invalid whitespace in file host."):v+=n;break;case "host":case "hostname":if(":"!=n||fa)if(void 0==n||"/"==n||"\\"==n||"?"==n||"#"==n){this.j=b.call(this,v);v="";y="relative path start";if(F)break a;continue}else"\t"!=n&&"\n"!=n&&"\r"!=n?("["==n?fa=!0:"]"==n&&(fa=!1),v+=n):N("Invalid code point in host/hostname: "+
 n);else if(this.j=b.call(this,v),v="",y="port","hostname"==F)break a;break;case "port":if(/[0-9]/.test(n))v+=n;else if(void 0==n||"/"==n||"\\"==n||"?"==n||"#"==n||F){""!=v&&(v=parseInt(v,10),v!=l[this.h]&&(this.m=v+""),v="");if(F)break a;y="relative path start";continue}else"\t"==n||"\n"==n||"\r"==n?N("Invalid code point in port: "+n):(f.call(this),this.i=!0);break;case "relative path start":"\\"==n&&N("'\\' not allowed in path.");y="relative path";if("/"!=n&&"\\"!=n)continue;break;case "relative path":if(void 0!=
 n&&"/"!=n&&"\\"!=n&&(F||"?"!=n&&"#"!=n))"\t"!=n&&"\n"!=n&&"\r"!=n&&(v+=c(n));else{"\\"==n&&N("\\ not allowed in relative path.");if(I=m[v.toLowerCase()])v=I;".."==v?(this.l.pop(),"/"!=n&&"\\"!=n&&this.l.push("")):"."==v&&"/"!=n&&"\\"!=n?this.l.push(""):"."!=v&&("file"==this.h&&0==this.l.length&&2==v.length&&q.test(v[0])&&"|"==v[1]&&(v=v[0]+":"),this.l.push(v));v="";"?"==n?(this.o="?",y="query"):"#"==n&&(this.v="#",y="fragment")}break;case "query":F||"#"!=n?void 0!=n&&"\t"!=n&&"\n"!=n&&"\r"!=n&&(this.o+=
-d(n)):(this.v="#",y="fragment");break;case "fragment":void 0!=n&&"\t"!=n&&"\n"!=n&&"\r"!=n&&(this.v+=n)}X++}}function f(){this.s=this.ga=this.h="";this.g=null;this.m=this.j="";this.l=[];this.v=this.o="";this.C=this.i=!1}function g(r,F){void 0===F||F instanceof g||(F=new g(String(F)));this.a=r;f.call(this);e.call(this,this.a.replace(/^[ \t\r\n\f]+|[ \t\r\n\f]+$/g,""),null,F)}var h=!1;try{var k=new URL("b","http://a");k.pathname="c%20d";h="http://a/c%20d"===k.href}catch(r){}if(!h){var l=Object.create(null);
+d(n)):(this.v="#",y="fragment");break;case "fragment":void 0!=n&&"\t"!=n&&"\n"!=n&&"\r"!=n&&(this.v+=n)}X++}}function f(){this.s=this.ga=this.h="";this.g=null;this.m=this.j="";this.l=[];this.v=this.o="";this.C=this.i=!1}function g(r,F){void 0===F||F instanceof g||(F=new g(String(F)));this.a=r;f.call(this);e.call(this,this.a.replace(/^[ \t\r\n\f]+|[ \t\r\n\f]+$/g,""),null,F)}var h=!1;try{var k=new URL("b","https://a");k.pathname="c%20d";h="https://a/c%20d"===k.href}catch(r){}if(!h){var l=Object.create(null);
 l.ftp=21;l.file=0;l.gopher=70;l.http=80;l.https=443;l.ws=80;l.wss=443;var m=Object.create(null);m["%2e"]=".";m[".%2e"]="..";m["%2e."]="..";m["%2e%2e"]="..";var q=/[a-zA-Z]/,H=/[a-zA-Z0-9\+\-\.]/;g.prototype={toString:function(){return this.href},get href(){if(this.i)return this.a;var r="";if(""!=this.s||null!=this.g)r=this.s+(null!=this.g?":"+this.g:"")+"@";return this.protocol+(this.C?"//"+r+this.host:"")+this.pathname+this.o+this.v},set href(r){f.call(this);e.call(this,r)},get protocol(){return this.h+
 ":"},set protocol(r){this.i||e.call(this,r+":","scheme start")},get host(){return this.i?"":this.m?this.j+":"+this.m:this.j},set host(r){!this.i&&this.C&&e.call(this,r,"host")},get hostname(){return this.j},set hostname(r){!this.i&&this.C&&e.call(this,r,"hostname")},get port(){return this.m},set port(r){!this.i&&this.C&&e.call(this,r,"port")},get pathname(){return this.i?"":this.C?"/"+this.l.join("/"):this.ga},set pathname(r){!this.i&&this.C&&(this.l=[],e.call(this,r,"relative path start"))},get search(){return this.i||
 !this.o||"?"==this.o?"":this.o},set search(r){!this.i&&this.C&&(this.o="?","?"==r[0]&&(r=r.slice(1)),e.call(this,r,"query"))},get hash(){return this.i||!this.v||"#"==this.v?"":this.v},set hash(r){this.i||(r?(this.v="#","#"==r[0]&&(r=r.slice(1)),e.call(this,r,"fragment")):this.v="")},get origin(){var r;if(this.i||!this.h)return"";switch(this.h){case "data":case "file":case "javascript":case "mailto":return"null"}return(r=this.host)?this.h+"://"+r:""}};var E=a.URL;E&&(g.createObjectURL=function(r){return E.createObjectURL.apply(E,

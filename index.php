@@ -1,7 +1,7 @@
 
 
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#" style=""
+<html prefix="og: https://ogp.me/ns#" style=""
    class="js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths js_active  vc_desktop  vc_transform  vc_transform  vc_transform page-trans-loaded"
    lang="eu">
    <head>
@@ -9,32 +9,32 @@
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!--Shortcut icon-->
-      <link rel="shortcut icon" href="http://sotapatroi.eus/index_files/fav.png">
+      <link rel="shortcut icon" href="https://sotapatroi.eus/index_files/fav.png">
       <title> Sotapatroi - Wireless Man Overboat System </title>
       <link rel="stylesheet" href="index_files/language-selector.css"  media="all">
       <!--
-         <link rel="alternate" hreflang="en" href="http://sotapatroi.eus/en/">
-         <link rel="alternate" hreflang="es" href="http://sotapatroi.eus/es/">
+         <link rel="alternate" hreflang="en" href="https://sotapatroi.eus/en/">
+         <link rel="alternate" hreflang="es" href="https://sotapatroi.eus/es/">
          -->
-      <link rel="alternate" hreflang="eu" href="http://sotapatroi.eus/">
+      <link rel="alternate" hreflang="eu" href="https://sotapatroi.eus/">
       <!-- This site is optimized with the Yoast SEO plugin v3.2.5 - https://yoast.com/wordpress/plugins/seo/ -->
       <meta name="description"
          content="Sotapatroi aisialdirako itsasontzietan segurtasuna hobetzen dauan sistemea da, patroia uretara jausi ezkero ontzia geldiaraziz.">
       <meta name="robots" content="noodp">
-      <link rel="canonical" href="http://sotapatroi.eus">
+      <link rel="canonical" href="https://sotapatroi.eus">
       <meta property="og:locale" content="eu_ES">
       <meta property="og:type" content="website">
       <meta property="og:title" content="Sotapatroi - Wireless Man Overboat System">
       <meta property="og:description"
          content="Sotapatroi aisialdirako itsasontzietan segurtasuna hobetzen dauan sistemea da, patroia uretara jausi ezkero ontzia geldiaraziz.">
-      <meta property="og:url" content="http://sotapatroi.eus/">
+      <meta property="og:url" content="https://sotapatroi.eus/">
       <meta property="og:site_name" content="Sotapatroi">
       <meta name="twitter:card" content="summary">
       <meta name="twitter:description"
          content="Sotapatroi aisialdirako itsasontzietan segurtasuna hobetzen dauan sistemea da, patroia uretara jausi ezkero ontzia geldiaraziz.">
       <meta name="twitter:title" content="Sotapatroi - Wireless Man Overboat System">
       <script
-         type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/sotapatroi.eus\/","name":"Sotapatroi","potentialAction":{"@type":"SearchAction","target":"http:\/\/sotapatroi.eus\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+         type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"WebSite","url":"https:\/\/sotapatroi.eus\/","name":"Sotapatroi","potentialAction":{"@type":"SearchAction","target":"https:\/\/sotapatroi.eus\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
       <!-- / Yoast SEO plugin. -->
       <script >
          window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/72x72\/", "ext": ".png", "source": { "concatemoji": "index_files\/wp-emoji-release.js?ver=4.5.1" } };
@@ -69,7 +69,7 @@
       </style>
       <link rel="stylesheet" id="magnific-css" href="index_files/magnific.css"  media="all">
       <!--[if lt IE 9]>
-      <link rel='stylesheet' id='nectar-ie8-css'  href='http://sotapatroi.eus/wp-content/themes/salient/css/ie8.css?ver=4.5.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='nectar-ie8-css'  href='https://sotapatroi.eus/wp-content/themes/salient/css/ie8.css?ver=4.5.1' type='text/css' media='all' />
       <![endif]-->
       <link rel="stylesheet" id="responsive-css" href="index_files/responsive.css"  media="all">
       <link rel="stylesheet" id="select2-css" href="index_files/select2.css"  media="all">
@@ -82,15 +82,15 @@
       <script  src="index_files/modernizr.js"></script>
       <script  src="index_files/ProgressCircle.js"></script>
       <script  src="index_files/jquery.js"></script>
-      <link rel="https://api.w.org/" href="http://sotapatroi.eus/wp-json/">
-      <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://sotapatroi.eus/xmlrpc.php?rsd">
-      <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://sotapatroi.eus/wp-includes/wlwmanifest.xml">
+      <link rel="https://api.w.org/" href="https://sotapatroi.eus/wp-json/">
+      <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://sotapatroi.eus/xmlrpc.php?rsd">
+      <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://sotapatroi.eus/wp-includes/wlwmanifest.xml">
       <meta name="generator" content="WordPress 4.5.1">
-      <link rel="shortlink" href="http://sotapatroi.eus/">
+      <link rel="shortlink" href="https://sotapatroi.eus/">
       <link rel="alternate" type="application/json+oembed"
-         href="http://sotapatroi.eus/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fsotapatroi.eus%2F">
+         href="https://sotapatroi.eus/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fsotapatroi.eus%2F">
       <link rel="alternate" type="text/xml+oembed"
-         href="http://sotapatroi.eus/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fsotapatroi.eus%2F&amp;format=xml">
+         href="https://sotapatroi.eus/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fsotapatroi.eus%2F&amp;format=xml">
       <meta name="generator" content="WPML ver:3.3.7 stt:1,2,16;">
       <style >
          body a {
@@ -753,7 +753,7 @@
          #ajax-loading-screen .loading-icon,
          .loading-icon,
          .pp_loaderIcon {
-         background-image: url("/web/20180620222951im_/http://sotapatroi.eus/");
+         background-image: url("/web/20180620222951im_/https://sotapatroi.eus/");
          }
          @media only screen and (min-width:1000px) and (max-width:1300px) {
          .nectar-slider-wrap[data-full-width="true"] .swiper-slide .content h2,
@@ -984,8 +984,8 @@
          }
          }
          .pagination-navigation {
-         -webkit-filter: url("http://sotapatroi.eus/#goo");
-         filter: url("http://sotapatroi.eus/#goo");
+         -webkit-filter: url("https://sotapatroi.eus/#goo");
+         filter: url("https://sotapatroi.eus/#goo");
          }
       </style>
       <style >
@@ -1441,15 +1441,15 @@
       </style>
       <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress.">
       <!--[if lte IE 9]>
-      <link rel="stylesheet"  href="http://sotapatroi.eus/wp-content/plugins/js_composer_salient/assets/css/vc_lte_ie9.min.css" media="screen">
+      <link rel="stylesheet"  href="https://sotapatroi.eus/wp-content/plugins/js_composer_salient/assets/css/vc_lte_ie9.min.css" media="screen">
       <![endif]-->
       <!--[if IE  8]>
-      <link rel="stylesheet"  href="http://sotapatroi.eus/wp-content/plugins/js_composer_salient/assets/css/vc-ie8.min.css" media="screen">
+      <link rel="stylesheet"  href="https://sotapatroi.eus/wp-content/plugins/js_composer_salient/assets/css/vc-ie8.min.css" media="screen">
       <![endif]-->
-      <link rel="icon" href="http://sotapatroi.eus/index_files/cropped-fav-32x32.png" sizes="32x32">
-      <link rel="icon" href="http://sotapatroi.eus/index_files/cropped-fav-192x192.png" sizes="192x192">
-      <link rel="apple-touch-icon-precomposed" href="http://sotapatroi.eus/index_files/cropped-fav-180x180.png">
-      <meta name="msapplication-TileImage" content="http://sotapatroi.eus/index_files/cropped-fav-270x270.png">
+      <link rel="icon" href="https://sotapatroi.eus/index_files/cropped-fav-32x32.png" sizes="32x32">
+      <link rel="icon" href="https://sotapatroi.eus/index_files/cropped-fav-192x192.png" sizes="192x192">
+      <link rel="apple-touch-icon-precomposed" href="https://sotapatroi.eus/index_files/cropped-fav-180x180.png">
+      <meta name="msapplication-TileImage" content="https://sotapatroi.eus/index_files/cropped-fav-270x270.png">
       <style  data-type="vc_shortcodes-custom-css">
          .vc_custom_1470012819227 {
          padding-left: 10% !important;
@@ -1533,9 +1533,9 @@
          <!--
             <div id="lang_sel_list" class="lang_sel_list_horizontal">
             	<ul>		
-            		<li class="icl-en"><a href="http://sotapatroi.eus/en/" class="lang_sel_other">English</a></li>
-            		<li class="icl-es"><a href="http://sotapatroi.eus/es/" class="lang_sel_other">Español</a></li>
-            		<li class="icl-eu"><a href="http://sotapatroi.eus/" class="lang_sel_sel">Euskara</a></li>
+            		<li class="icl-en"><a href="https://sotapatroi.eus/en/" class="lang_sel_other">English</a></li>
+            		<li class="icl-es"><a href="https://sotapatroi.eus/es/" class="lang_sel_other">Español</a></li>
+            		<li class="icl-eu"><a href="https://sotapatroi.eus/" class="lang_sel_sel">Euskara</a></li>
             	</ul>
             </div>
             -->
@@ -1562,7 +1562,7 @@
             <div class="container" style="visibility: visible;">
                <div class="row">
                   <div class="col span_3">
-                     <a id="logo" href="http://sotapatroi.eus/">
+                     <a id="logo" href="https://sotapatroi.eus/">
                      <img class="stnd default-logo" alt="Sotapatroi" src="index_files/logo-sotapatro-wjhite.png"
                         style="height: 80px;"><img class="retina-logo " alt="Sotapatroi"
                         src="index_files/logo-sotapatro-white.png" style="height: 80px;"><img
@@ -1623,7 +1623,7 @@
             <div class="container" style="height: 130px;">
                <div id="search-box" style="top: 73.5px;">
                   <div class="col span_12">
-                     <form action="http://sotapatroi.eus/" method="GET">
+                     <form action="https://sotapatroi.eus/" method="GET">
                         <input type="text" name="s" id="s" value="Start Typing..."
                            data-placeholder="Start Typing...">
                      </form>
@@ -1738,7 +1738,7 @@
                                              class="play_button large nectar_video_lightbox"
                                              target="_blank" rel="noopener">
                                              <span>
-                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                                <svg version="1.1" xmlns="https://www.w3.org/2000/svg"
                                                    width="600px"
                                                    height="800px" x="0px" y="0px" viewBox="0 0 600 800"
                                                    enable-background="new 0 0 600 800"
@@ -1951,7 +1951,7 @@
 							<p>Sotapatroi proiektuari buruz gehiago jakin nahi izan ezkero: &#115;&#111;&#116;&#97;&#112;&#97;&#116;&#114;&#111;&#105;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</p>
 						</div>
 					</div>
-				<div class="img-with-aniamtion-wrap center"><img class="img-with-animation  animated-in" data-delay="0" data-animation="fade-in" src="http://sotapatroi.eus/index_files/eskuak2.png" alt="" style="opacity: 1; width: 100%"></div>
+				<div class="img-with-aniamtion-wrap center"><img class="img-with-animation  animated-in" data-delay="0" data-animation="fade-in" src="https://sotapatroi.eus/index_files/eskuak2.png" alt="" style="opacity: 1; width: 100%"></div>
 							</div> 
 					</div> 
 				
@@ -2012,14 +2012,14 @@
       <script  src="index_files/autocomplete.js"></script>
       <script >
          /* <![CDATA[ */
-         var MyAcSearch = { "url": "http:\/\/sotapatroi.eus\/wp-admin\/admin-ajax.php" };
+         var MyAcSearch = { "url": "https:\/\/sotapatroi.eus\/wp-admin\/admin-ajax.php" };
          /* ]]> */
       </script>
       <script  src="index_files/wpss-search-suggest.js"></script>
       <script  src="index_files/jquery_002.js"></script>
       <script >
          /* <![CDATA[ */
-         var _wpcf7 = { "loaderUrl": "http:\/\/sotapatroi.eus\/index_files\/ajax-loader.gif", "recaptchaEmpty": "Please verify that you are not a robot.", "sending": "Bidaltzen..." };
+         var _wpcf7 = { "loaderUrl": "https:\/\/sotapatroi.eus\/index_files\/ajax-loader.gif", "recaptchaEmpty": "Please verify that you are not a robot.", "sending": "Bidaltzen..." };
          /* ]]> */
       </script>
       <script  src="index_files/scripts.js"></script>
@@ -2028,7 +2028,7 @@
       <script  src="index_files/superfish.js"></script>
       <script >
          /* <![CDATA[ */
-         var nectarLove = { "ajaxurl": "http:\/\/sotapatroi.eus\/wp-admin\/admin-ajax.php", "postID": "236", "rooturl": "http:\/\/sotapatroi.eus", "pluginPages": [], "disqusComments": "false" };
+         var nectarLove = { "ajaxurl": "https:\/\/sotapatroi.eus\/wp-admin\/admin-ajax.php", "postID": "236", "rooturl": "https:\/\/sotapatroi.eus", "pluginPages": [], "disqusComments": "false" };
          /* ]]> */
       </script>
       <script  src="index_files/init.js"></script>
@@ -2045,7 +2045,7 @@
       <script  src="index_files/wp-embed.js"></script>
       <script >
          /* <![CDATA[ */
-         var icl_vars = { "current_language": "eu", "icl_home": "http:\/\/sotapatroi.eus\/", "ajax_url": "http:\/\/sotapatroi.eus\/wp-admin\/admin-ajax.php", "url_type": "1" };
+         var icl_vars = { "current_language": "eu", "icl_home": "https:\/\/sotapatroi.eus\/", "ajax_url": "https:\/\/sotapatroi.eus\/wp-admin\/admin-ajax.php", "url_type": "1" };
          /* ]]> */
       </script>
       <script  src="index_files/sitepress.js"></script>
